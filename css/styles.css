@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{font-family: 'Roboto', sans-serif;
+    text-align:center;}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+/* -------- Typography Formatting -------- */
+
+/*green #50694b, pink #ff294f, tan #f5f4f0*/
+
+h1{
+    
+}
+h2{
+    text-transform: uppercase;
+}
+
+.green{
+    color:#50694b;
+}
+.white{
+    color:#fff;
+}
+.pink{
+    color:#ff294f
+}
+
+.button{
+    border:2px solid #50694b;
+}
+
+/* -------- Section Formatting -------- */
+
+.tan{
+    background:#f5f4f0;
+}
+
+.content-block-one {}
+.content-block-two {}
+
+/* -------- Header -------- */
+
+
+/* -------- Content Blocks -------- */
+.in-season-images{
+    
+}
+
+/* -------- Footer -------- */
+footer{
+    color:#50694b;
+}
