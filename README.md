@@ -12,5 +12,3 @@
 
 ## Comments
 This project was great!
-
-Can you look at line 23 of my JavaScript file?
