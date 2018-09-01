@@ -24,8 +24,11 @@ body{
 h1{
     
 }
+
 h2{
     text-transform: uppercase;
+    font-size:1.3rem;
+    line-height:3rem;
 }
 
 .green{
@@ -37,21 +40,28 @@ h2{
 .pink{
     color:#ff294f
 }
+p {
+    font-weight:100;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 .button{
     border:2px solid #50694b;
-		line-height:.7rem;
-		padding:.7rem;
-		border-radius:5px;
+    line-height:.7rem;
+    padding:.7rem 1rem;
+    border-radius:5px;
+    font-size:.9rem;
+    text-transform:uppercase;
+    margin:auto;
+    text-decoration:none;
 }
 
-/* -------- Section Formatting -------- */
 .tan{
     background:#f5f4f0;
 }
-
-.content-block-one {}
-.content-block-two {}
 
 /* -------- Nav Bar -------- */
 
@@ -109,7 +119,6 @@ h2{
     z-index:-10;
     width:100%;
     margin:0;
-
 }
 
 .hero-text{
@@ -119,19 +128,42 @@ h2{
     left:50%;
     transform:translate(-50%,-50%);
     width:100%;
-
-    
+}
+.hero-text h1{
+    padding-bottom:2rem;
+}
+.hero-text a{
+	border:2px solid #fff;
 }
 
-
-
-
 /* -------- Content Blocks -------- */
+.content-block-one{
+    padding:4% 25%;
+}
+.content-block-one p{
+    padding-bottom:2rem;
+}
+
+.content-block-one a{
+    border:2px solid #ff294f;
+}
+
+.content-block-two {
+    padding:4% 10%;
+}
 .in-season-images{
-    
+    display:block;
+    margin-bottom:2rem;
+}
+
+.content-block-two a{
+    margin-top:1rem;
+    border:2px solid #ff294f;
+   
 }
 
 /* -------- Footer -------- */
 footer{
     color:#50694b;
+    padding:5%;
 }
