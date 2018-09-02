@@ -141,9 +141,12 @@ p {
 #body-flex{
 	display:flex;
 	width:100%;
+	align-items: center;
 } 
 
 .content-block-one{
+	flex:1 1 auto;
+	background:#fff;
 	width:40%;
 	padding:5%;
 }
@@ -158,6 +161,7 @@ p {
 }
 
 .content-block-two {
+	
 	padding:5%;
 	width:40%;
 }
@@ -179,6 +183,7 @@ p {
 
 /* -------- Footer -------- */
 footer{
-	color:#50694b;
+	background:#50694b;
+	color:#fff;
 	padding:5%;
 }
