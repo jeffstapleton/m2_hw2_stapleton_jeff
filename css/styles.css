@@ -21,10 +21,6 @@ body{
 
 /*green #50694b, pink #ff294f, tan #f5f4f0*/
 
-h1{
-	
-}
-
 h2{
 	text-transform: uppercase;
 	font-size:1.3rem;
@@ -50,6 +46,8 @@ p {
 
 .button{
 	border:2px solid #50694b;
+	background:#50694b;
+	color:#fff;
 	line-height:.7rem;
 	padding:.7rem 1rem;
 	border-radius:5px;
@@ -133,7 +131,9 @@ p {
 	padding-bottom:2rem;
 }
 .hero-text a{
-	border:2px solid #fff;
+	background:#fff;
+	border:none;
+	color:#50694b;
 }
 
 /* -------- Content Blocks -------- */
@@ -145,7 +145,9 @@ p {
 }
 
 .content-block-one a{
-	border:2px solid #ff294f;
+	border:none;
+	background: #ff294f;
+	color:#fff;
 }
 
 .content-block-two {
@@ -156,12 +158,10 @@ p {
 	margin-bottom:2rem;
 }
 
-.in-season-images img{
-}
 .content-block-two a{
-	margin-top:1rem;
-	border:2px solid #ff294f;
-	
+	border:none;
+	background: #ff294f;
+	color:#fff;
 }
 
 /* -------- Footer -------- */
